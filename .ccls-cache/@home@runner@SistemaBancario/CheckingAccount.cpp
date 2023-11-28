@@ -21,15 +21,15 @@ CheckingAccount::CheckingAccount(const int accountNUmber)
 bool CheckingAccount::deposit(const double amount) {
 
     if(amount <= 0) {
-        cout << "ERROR: The deposit amount must be a positive value" << endl;
+        cout << "ERRO: O valor do depósito deve ser um valor positivo." << endl;
         return false;
     }
 
     // update balance
     balance += amount;
 
-    cout << "Account has been credited $" << amount << endl;
-    cout << "Current Balance: $" << balance << endl;
+    cout << "Conta creditada em R$" << amount << endl;
+    cout << "Saldo Atual: R$" << balance << endl;
     return true;
 }
 
@@ -37,7 +37,7 @@ bool CheckingAccount::withdraw(const double amount) {
 
     // must be positive value
     if(amount <= 0) {
-        cout << "ERROR: The Withdraw amount must be a positive value" << endl;
+        cout << "ERRO: O valor do saque deve ser um valor positivo." << endl;
         return false;
     }
 
@@ -46,12 +46,12 @@ bool CheckingAccount::withdraw(const double amount) {
 
         balance -= amount;
 
-        cout << "Withdrawal of $" << amount << " has been made." << endl;
+        cout << "Saque de R$" << amount << " realizado." << endl;
         cout << "Current Balance: $" << balance << endl;
         return true;
     }
 
-    cout << "Balance is not sufficient to withdraw $" << amount << endl;
-    cout << "Current Balance: $" << balance << endl;
+    cout << "Saldo insuficiente para sacar R$" << amount << endl;
+    cout << "Saldo Atual: R$" << balance << endl;
     return false;
 }
