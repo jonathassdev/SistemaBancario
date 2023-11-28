@@ -1,0 +1,1 @@
+/nix/store/dq0xwmsk1g0i2ayg6pb7y87na2knzylh-gcc-wrapper-11.3.0/bin/g++ CMakeFiles/Sistema_Bancario.dir/main.cpp.o CMakeFiles/Sistema_Bancario.dir/Account.cpp.o CMakeFiles/Sistema_Bancario.dir/Bank.cpp.o CMakeFiles/Sistema_Bancario.dir/CheckingAccount.cpp.o CMakeFiles/Sistema_Bancario.dir/SavingsAccount.cpp.o -o Sistema_Bancario 

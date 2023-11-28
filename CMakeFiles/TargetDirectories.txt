@@ -1,0 +1,3 @@
+/home/runner/SistemaBancario/CMakeFiles/Sistema_Bancario.dir
+/home/runner/SistemaBancario/CMakeFiles/edit_cache.dir
+/home/runner/SistemaBancario/CMakeFiles/rebuild_cache.dir
