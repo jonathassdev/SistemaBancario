@@ -15,4 +15,4 @@ add_executable(Sistema_Bancario
         SavingsAccount.h
 )
 
-set_target_properties(Sistema_Bancario PROPERTIES OUTPUT_NAME "Sistema_Bancario")
+set_target_properties(Sistema_Bancario PROPERTIES OUTPUT_NAME "main")

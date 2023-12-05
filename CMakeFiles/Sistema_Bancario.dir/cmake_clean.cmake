@@ -9,8 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Sistema_Bancario.dir/SavingsAccount.cpp.o.d"
   "CMakeFiles/Sistema_Bancario.dir/main.cpp.o"
   "CMakeFiles/Sistema_Bancario.dir/main.cpp.o.d"
-  "Sistema_Bancario"
-  "Sistema_Bancario.pdb"
+  "main"
+  "main.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
