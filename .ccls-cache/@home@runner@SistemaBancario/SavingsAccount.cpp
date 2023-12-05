@@ -7,7 +7,7 @@
 
 // Construtor padrão
 SavingsAccount::SavingsAccount()
-        : Account(), ir(0.05) { // // Taxa de juros de 5%
+        : Account(), ir(0.05) { // // Taxa de juros de 5% a.m
 
 }
 
